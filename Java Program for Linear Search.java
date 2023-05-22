@@ -1,22 +1,22 @@
-Problem: Given an array arr[] of n elements, write a function to search a given element x in arr[]. 
+// Problem: Given an array arr[] of n elements, write a function to search a given element x in arr[]. 
 
-ALGORITHM :
-Step 1: Start 
-Step 2: Declare an array and search element as key.
-Step 3: Traverse the array until the number is found.
-Step 4: If the key element is found, return the index position of the array element
-Step 5: If the key element is not found, return -1
-Step 6: Stop.
+// ALGORITHM :
+// Step 1: Start 
+// Step 2: Declare an array and search element as key.
+// Step 3: Traverse the array until the number is found.
+// Step 4: If the key element is found, return the index position of the array element
+// Step 5: If the key element is not found, return -1
+// Step 6: Stop.
  
 
-Pseudocode :
-PROCEDURE LINEAR_SEARCH (LIST, VALUE)
-  FOR EACH ITEM IN THE LIST
-     IF SAME ITEM == VALUE
-          RETURN THE ITEM’S LOCATION
-     END IF
-  END FOR
-END PROCEDURE
+// Pseudocode :
+// PROCEDURE LINEAR_SEARCH (LIST, VALUE)
+//   FOR EACH ITEM IN THE LIST
+//      IF SAME ITEM == VALUE
+//           RETURN THE ITEM’S LOCATION
+//      END IF
+//   END FOR
+// END PROCEDURE
 
 ----------------------------------------------------------------
 // Java code for linearly search x in arr[]. If x
